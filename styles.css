@@ -1,0 +1,28 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border: 2px solid white;
+    padding: 8px;
+}
+
+.nav-links > ul {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
