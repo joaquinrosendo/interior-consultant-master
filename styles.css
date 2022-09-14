@@ -2,11 +2,19 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+}
+
+/* NAVIGATION */
 
 .navigation {
     background-color: black;
     color: white;
+    padding: 50px 80px;
     display: flex;
     flex-wrap: none;
     flex-direction: row;
@@ -15,14 +23,37 @@
 }
 
 .logo {
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
     border: 2px solid white;
     padding: 8px;
 }
 
 .nav-links > ul {
-    text-decoration: none;
     display: flex;
     flex-wrap: none;
     flex-direction: row;
-    justify-content: space-between;
 }
+
+.nav-links > ul li {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    list-style: none;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-bottom: 5px;
+    line-height: 22px;
+    border-bottom: 2px solid black;
+}
+
+.nav-links>ul li:hover, .nav-links > ul li:active{
+    border-bottom: 2px solid white;
+    font-weight: 700px;
+}
+
+/* MAIN */
