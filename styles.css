@@ -54,6 +54,19 @@ body {
 .nav-links>ul li:hover, .nav-links > ul li:active{
     border-bottom: 2px solid white;
     font-weight: 700px;
+    cursor: pointer;
 }
 
 /* MAIN */
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-article {
+    color: white;
+}
+
+.main-image {
+    max-width: 800px;
+}
