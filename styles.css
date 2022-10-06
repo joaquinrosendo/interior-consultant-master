@@ -59,14 +59,121 @@ body {
 
 /* MAIN */
 .main-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-article {
     color: white;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.article-link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+.main-image-container {
+    position: relative;
 }
 
 .main-image {
-    max-width: 800px;
+    max-width: 600px;
+}
+
+.employee-card {
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 150px;
+    bottom: -80px; 
+    left: 200px;
+}
+
+.employee-card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.employee-card-img-container {
+    width: 85px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee-card-img {
+    border-radius: 100%;
+    width: 50px;
+}
+
+.employee-name-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.employee-name-title > p:first-of-type {
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+.employee-name-title:nth-child(2) {
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+}
+
+.employee-card-description {
+    margin-left: 20px;
+    width: 250px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: white;
+}
+
+.footer {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
